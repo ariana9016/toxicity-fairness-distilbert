@@ -1,0 +1,4 @@
+dataset,metric,direction,observed_difference,ci_lower_95,ci_upper_95,bootstrap_repetitions
+representative,toxic_f1,weighted_minus_standard,-0.002587,-0.015576,0.009725,5000
+enriched,subgroup_fpr_gap,weighted_minus_standard,-0.00371,-0.018862,0.006745,5000
+synthetic,identity_swap_mean_abs_score_difference,standard_minus_weighted,0.002336,0.000983,0.004191,5000
