@@ -1,0 +1,9 @@
+dataset,model,threshold,accuracy,precision,recall,toxic_f1,roc_auc,fpr
+representative,A2_unweighted_lr,0.15,0.9168,0.4773,0.4486,0.4625,0.8493,0.0426
+representative,A4_balanced_lr,0.6,0.9224,0.5179,0.3985,0.4504,0.8496,0.0322
+representative,B_standard_distilbert,0.25,0.9386,0.623,0.584,0.6028,0.9333,0.0306
+representative,C_weighted_distilbert,0.3,0.9382,0.6203,0.5815,0.6003,0.9302,0.0309
+enriched,A2_unweighted_lr,0.15,0.7067,0.703,0.4617,0.5573,0.7599,0.13
+enriched,A4_balanced_lr,0.6,0.7017,0.7201,0.4158,0.5272,0.7614,0.1078
+enriched,B_standard_distilbert,0.25,0.727,0.8547,0.3825,0.5285,0.8439,0.0433
+enriched,C_weighted_distilbert,0.3,0.7197,0.8732,0.35,0.4997,0.8434,0.0339
